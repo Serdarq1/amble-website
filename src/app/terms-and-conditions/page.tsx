@@ -166,7 +166,7 @@ const sections: readonly LegalSection[] = [
         <p>
           The Service depends on platforms and services we do not control, including
           Apple Health, Sign in with Apple, Apple Watch, App Store billing, notification
-          services, Supabase, and Vercel. Your use of those services may be governed by
+          services, Supabase, Vercel, Sentry, and PostHog. Your use of those services may be governed by
           additional terms and privacy policies from their providers.
         </p>
         <p>
@@ -341,7 +341,7 @@ export default function TermsAndConditionsPage() {
       eyebrow="The ground rules"
       title="Terms and Conditions"
       summary="The agreement that keeps Amble useful, safe, and fair for everyone who uses it."
-      updated="September 7, 2026"
+      updated="October 9, 2026"
       sections={sections}
     />
   );

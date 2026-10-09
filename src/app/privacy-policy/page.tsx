@@ -4,7 +4,7 @@ import { LegalPage, type LegalSection } from "@/components/legal-page";
 export const metadata: Metadata = {
   title: "Privacy Policy | Amble",
   description:
-    "How Amble handles account, movement, social, subscription, notification, and website data.",
+    "How Amble handles account, movement, social, subscription, notification, diagnostics, analytics, and website data.",
 };
 
 const sections: readonly LegalSection[] = [
@@ -98,6 +98,25 @@ const sections: readonly LegalSection[] = [
           the contents of your message.
         </p>
 
+        <h3>App diagnostics and usage analytics</h3>
+        <p>
+          To find problems and improve the experience, the app uses Sentry for crash and
+          error reporting and PostHog for product analytics. When the app crashes or
+          encounters an error, Sentry receives a technical report that may include the
+          error details and stack trace, app version, device model, operating system
+          version, timestamps, and your Amble account identifier. PostHog receives usage
+          events such as app opens, screens viewed, onboarding steps completed, and
+          subscription purchases, together with app and device details, your Amble account
+          identifier, and approximate location derived from an IP address.
+        </p>
+        <p>
+          These tools do not receive Apple Health data, workout routes, photos, the
+          contents of your notes, or your name or email address. We have configured them
+          not to capture screenshots or screen recordings. We use this information only to
+          fix issues, understand how features are used, and improve Amble, never for
+          advertising or to track you across other companies’ apps and websites.
+        </p>
+
         <h3>Website information</h3>
         <p>
           Our website uses Vercel Analytics to understand visits and App Store button
@@ -167,7 +186,9 @@ const sections: readonly LegalSection[] = [
           </li>
           <li>
             <strong>Service providers.</strong> Supabase supports authentication,
-            database, and server functions. Vercel hosts and measures the website. Apple
+            database, and server functions. Vercel hosts and measures the website. Sentry
+            processes crash and error reports, and PostHog processes in-app usage
+            analytics. Apple
             supports Sign in with Apple, Apple Health, notifications, and App Store
             purchases. These providers process information under their own terms and,
             where applicable, on our instructions.
@@ -210,6 +231,8 @@ const sections: readonly LegalSection[] = [
         </p>
         <p>
           Our providers may process information in countries other than where you live.
+          For example, Sentry and PostHog process app diagnostics and usage analytics in
+          the United States.
           Where required, we use legally recognized safeguards for international
           transfers. Those countries may have different data protection rules.
         </p>
@@ -284,7 +307,7 @@ export default function PrivacyPolicyPage() {
       eyebrow="Your privacy, in plain language"
       title="Privacy Policy"
       summary="What Amble keeps on your device, what is synced to make the service work, and the choices you have."
-      updated="September 7, 2026"
+      updated="October 9, 2026"
       sections={sections}
     />
   );
