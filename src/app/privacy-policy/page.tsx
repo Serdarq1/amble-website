@@ -4,7 +4,7 @@ import { LegalPage, type LegalSection } from "@/components/legal-page";
 export const metadata: Metadata = {
   title: "Privacy Policy | Amble",
   description:
-    "How Amble handles account, movement, social, subscription, notification, diagnostics, analytics, and website data.",
+    "How Amble handles account, movement, social, subscription, notification, email, diagnostics, analytics, and website data.",
 };
 
 const sections: readonly LegalSection[] = [
@@ -105,8 +105,8 @@ const sections: readonly LegalSection[] = [
           encounters an error, Sentry receives a technical report that may include the
           error details and stack trace, app version, device model, operating system
           version, timestamps, and your Amble account identifier. PostHog receives usage
-          events such as app opens, screens viewed, onboarding steps completed, and
-          subscription purchases, together with app and device details, your Amble account
+          events such as app opens, screens viewed, onboarding steps completed, trial
+          starts, and subscription purchases, together with app and device details, your Amble account
           identifier, and approximate location derived from an IP address.
         </p>
         <p>
@@ -115,6 +115,33 @@ const sections: readonly LegalSection[] = [
           not to capture screenshots or screen recordings. We use this information only to
           fix issues, understand how features are used, and improve Amble, never for
           advertising or to track you across other companies’ apps and websites.
+        </p>
+
+        <h3>Emails</h3>
+        <p>
+          If you have an Amble account with an email address, we use Loops to send
+          emails about the app you signed up for, such as a welcome note, tips for
+          features you have not tried yet, a reminder before your free trial ends, and
+          a confirmation if you cancel. To decide which of these emails are useful to
+          you, Loops receives your email address (including an Apple private relay
+          address), your Amble account identifier, your first name and Lumi&apos;s name,
+          your app language, the last day you opened the app, whether you have tried
+          certain features (for example a Heart Moment, a widget, an outfit, or adding
+          a friend), and your subscription status, plan, and trial end date.
+        </p>
+        <p>
+          Marketing emails, such as a monthly recap reminder, new collectibles, feature
+          news, and a short note after a subscription ends, are sent only if you turn on
+          &ldquo;Email me tips and news&rdquo; during sign-up or &ldquo;Tips and news by
+          email&rdquo; in Settings. Both are off by default. We record when you change
+          this choice. Every email has a one-click unsubscribe link, and you can turn
+          marketing emails off in Settings at any time.
+        </p>
+        <p>
+          Loops does not receive Apple Health data, step counts, sleep, workout routes,
+          photos, or the contents of your recaps. Emails say a recap is ready and link
+          to it in the app. If you delete your account, we delete your Loops contact
+          first.
         </p>
 
         <h3>Website information</h3>
@@ -187,8 +214,9 @@ const sections: readonly LegalSection[] = [
           <li>
             <strong>Service providers.</strong> Supabase supports authentication,
             database, and server functions. Vercel hosts and measures the website. Sentry
-            processes crash and error reports, and PostHog processes in-app usage
-            analytics. Apple
+            processes crash and error reports, PostHog processes in-app usage
+            analytics, and Loops sends account, trial, and opted-in marketing emails.
+            Apple
             supports Sign in with Apple, Apple Health, notifications, and App Store
             purchases. These providers process information under their own terms and,
             where applicable, on our instructions.
@@ -231,8 +259,8 @@ const sections: readonly LegalSection[] = [
         </p>
         <p>
           Our providers may process information in countries other than where you live.
-          For example, Sentry and PostHog process app diagnostics and usage analytics in
-          the United States.
+          For example, Sentry and PostHog process app diagnostics and usage analytics, and
+          Loops processes email information, in the United States.
           Where required, we use legally recognized safeguards for international
           transfers. Those countries may have different data protection rules.
         </p>
@@ -246,7 +274,8 @@ const sections: readonly LegalSection[] = [
       <>
         <p>
           You can edit available profile and sharing settings in the app, manage device
-          permissions in iOS, and cancel a subscription through Apple. You can delete
+          permissions in iOS, turn marketing emails on or off in Settings or with the
+          unsubscribe link in any email, and cancel a subscription through Apple. You can delete
           your Amble account from the app. Account deletion removes active server data
           associated with the account, subject to limited legal, security, and backup
           retention.
@@ -307,7 +336,7 @@ export default function PrivacyPolicyPage() {
       eyebrow="Your privacy, in plain language"
       title="Privacy Policy"
       summary="What Amble keeps on your device, what is synced to make the service work, and the choices you have."
-      updated="October 9, 2026"
+      updated="October 20, 2026"
       sections={sections}
     />
   );

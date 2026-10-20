@@ -1,0 +1,10 @@
+{
+  "applinks": {
+    "details": [
+      {
+        "appIDs": ["F53BJ82F6D.com.serdarakova.amble"],
+        "components": [{ "/": "/open/*", "comment": "Email and web buttons that open a screen in Amble" }]
+      }
+    ]
+  }
+}
