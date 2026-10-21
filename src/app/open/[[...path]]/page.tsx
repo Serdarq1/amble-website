@@ -15,7 +15,7 @@ export default function OpenInApp() {
       <main className="not-found-main">
         <Image
           className="not-found-mascot"
-          src="/brand/lumi-waving.png"
+          src="/brand/lumi-waving-compact.png"
           alt="Lumi, Amble's heart mascot, waving"
           width={1400}
           height={1400}

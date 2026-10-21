@@ -2513,6 +2513,10 @@ h1 {
   line-height: 1.5;
 }
 
+.not-found-main > .app-store-badge {
+  margin-top: 32px;
+}
+
 .not-found-action {
   display: inline-flex;
   align-items: center;
