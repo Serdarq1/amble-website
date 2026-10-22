@@ -10,4 +10,6 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 
 ## Mascot artwork
 
-Do not use the retired long-legged `lumi-waving.png` mascot. Use `public/brand/lumi-waving-compact.png`, copied from the app’s active `amble_pose_waving_compact` asset, for waving illustrations. Preserve the compact proportions.
+Do not use the retired long-legged `lumi-waving.png` mascot. Use `public/brand/amble-heart-waving.png`, copied from the app’s active `amble_pose_waving_compact` asset, for waving illustrations. Preserve the compact proportions.
+
+The mascot has no fixed name. Never call it Lumi in copy, alt text, or examples. Refer to the Amble heart mascot; personalized emails may use the user’s chosen heart name.

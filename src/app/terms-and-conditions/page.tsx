@@ -184,7 +184,7 @@ const sections: readonly LegalSection[] = [
       <>
         <p>
           Amble and its licensors own the Service, including its software, designs,
-          artwork, Lumi character, text, graphics, logos, and other content, excluding
+          artwork, heart mascot character, text, graphics, logos, and other content, excluding
           content you own. These materials are protected by intellectual property laws.
         </p>
         <p>

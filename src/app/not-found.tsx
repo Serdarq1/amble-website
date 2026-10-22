@@ -9,7 +9,7 @@ export default function NotFound() {
         <Image
           className="not-found-mascot"
           src="/brand/lumi-confused.png"
-          alt="Lumi, Amble's heart mascot, looking confused"
+          alt="Amble's heart mascot looking confused"
           width={1232}
           height={1232}
           priority

@@ -15,10 +15,11 @@ export default function OpenInApp() {
       <main className="not-found-main">
         <Image
           className="not-found-mascot"
-          src="/brand/lumi-waving-compact.png"
-          alt="Lumi, Amble's heart mascot, waving"
+          src="/brand/amble-heart-waving.png"
+          alt="Amble's heart mascot waving"
           width={1400}
           height={1400}
+          unoptimized
           priority
           sizes="(max-width: 700px) 250px, 330px"
         />

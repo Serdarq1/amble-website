@@ -25,7 +25,7 @@ function HeroWorld() {
     <div
       className="hero-world"
       role="group"
-      aria-label="Four Lumi characters cycling, running, and catching up at a café in a sunny neighborhood park around the Amble app"
+      aria-label="Four Amble heart mascots cycling, running, and catching up at a café in a sunny neighborhood park around the Amble app"
     >
       <Image
         className="hero-world__art"
@@ -269,7 +269,7 @@ function ClosingCallToAction() {
         <Image
           className="closing-cta__mascot"
           src="/brand/lumi-cta-skip.png"
-          alt="Lumi skipping forward and pointing toward the next step"
+          alt="The Amble heart mascot skipping forward and pointing toward the next step"
           width={1254}
           height={1254}
           sizes="(max-width: 700px) 320px, 560px"

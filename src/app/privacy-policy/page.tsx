@@ -41,14 +41,14 @@ const sections: readonly LegalSection[] = [
           account identifier, name, and email address, including an Apple private relay
           address if you choose Hide My Email. We also store profile information you
           choose to provide, such as your display name, username, time zone, avatar or
-          Lumi style, and activity sharing preference.
+          heart mascot style, and activity sharing preference.
         </p>
 
         <h3>Onboarding and goals</h3>
         <p>
           We may collect answers you provide about your age range, gender identity,
           movement goals, activity level, daily step goal, workout days, sleep goal,
-          stress level, referral source, and the name or style you select for Lumi.
+          stress level, referral source, and the name or style you select for your heart mascot.
           These details personalize your experience and are not used to diagnose a
           health condition.
         </p>
@@ -124,7 +124,7 @@ const sections: readonly LegalSection[] = [
           features you have not tried yet, a reminder before your free trial ends, and
           a confirmation if you cancel. To decide which of these emails are useful to
           you, Loops receives your email address (including an Apple private relay
-          address), your Amble account identifier, your first name and Lumi&apos;s name,
+          address), your Amble account identifier, your first name and your chosen heart name,
           your app language, the last day you opened the app, whether you have tried
           certain features (for example a Heart Moment, a widget, an outfit, or adding
           a friend), and your subscription status, plan, and trial end date.
