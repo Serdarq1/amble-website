@@ -141,7 +141,7 @@ The page is public and read only. It collects no form data and reads no health d
 
 ## Follow-up
 
-- [ ] Replace `#` with the verified App Store URL when it is available.
+- [x] Replace `#` with the verified App Store URL when it is available.
 - [ ] Add ratings, review quotes, awards, or download counts only after their values and permission to publish are verified.
 - [ ] Consider the discovered Vercel React and analytics skills later if the website grows beyond this small release. No optional skill is installed for this build.
 
