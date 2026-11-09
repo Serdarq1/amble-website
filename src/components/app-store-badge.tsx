@@ -19,7 +19,7 @@ export function AppStoreBadge({ className = "" }: AppStoreBadgeProps) {
   return (
     <a
       className={`app-store-badge ${className}`}
-      href="https://apps.apple.com/tr/app/amble-step-counter-hrv/id6793465259"
+      href="https://apps.apple.com/app/amble-step-counter-hrv/id6793465259"
       aria-label="Download Amble on the App Store"
       onClick={recordClick}
     >
