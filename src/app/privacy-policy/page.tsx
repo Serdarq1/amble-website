@@ -240,6 +240,40 @@ const sections: readonly LegalSection[] = [
     ),
   },
   {
+    id: "youtube-api-services",
+    title: "YouTube API Services",
+    content: (
+      <>
+        <p>
+          Amble uses YouTube API Services. We use them only in an internal publishing
+          tool that uploads and schedules Amble&rsquo;s own short videos on Amble&rsquo;s
+          own YouTube channels. The Amble apps and website do not use YouTube API
+          Services, and we do not use them to access, collect, or store information about
+          you or any other YouTube user.
+        </p>
+        <p>
+          By using YouTube features, you are also agreeing to the{" "}
+          <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. Google
+          processes information as described in the{" "}
+          <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.
+        </p>
+        <p>
+          Through the YouTube Data API, the tool accesses only the Amble YouTube channels
+          we own. It uses the upload permission to publish videos and set their titles,
+          descriptions, and publish times. The only YouTube data it stores is the ID of
+          each video it uploads, kept on our own computer to confirm that a scheduled post
+          went out. We do not share YouTube API data with anyone. Stored video IDs are
+          deleted within 30 days. Access can be revoked at any time on the{" "}
+          <a href="https://security.google.com/settings/security/permissions">
+            Google security settings page
+          </a>
+          . If you have a question about this, email{" "}
+          <a href="mailto:info@appamble.com">info@appamble.com</a>.
+        </p>
+      </>
+    ),
+  },
+  {
     id: "retention-security-transfers",
     title: "Retention, security, and international transfers",
     content: (
@@ -336,7 +370,7 @@ export default function PrivacyPolicyPage() {
       eyebrow="Your privacy, in plain language"
       title="Privacy Policy"
       summary="What Amble keeps on your device, what is synced to make the service work, and the choices you have."
-      updated="October 20, 2026"
+      updated="November 14, 2026"
       sections={sections}
     />
   );

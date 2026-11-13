@@ -170,6 +170,12 @@ const sections: readonly LegalSection[] = [
           additional terms and privacy policies from their providers.
         </p>
         <p>
+          Amble uses YouTube API Services to publish Amble&rsquo;s own videos to
+          Amble&rsquo;s YouTube channels. Where you interact with any Amble feature or
+          tool that uses YouTube API Services, you agree to be bound by the{" "}
+          <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>.
+        </p>
+        <p>
           We are not responsible for third party services, devices, content, policies,
           outages, or decisions. Links do not imply endorsement. To the fullest extent
           permitted by law, you use third party services at your own risk.
@@ -341,7 +347,7 @@ export default function TermsAndConditionsPage() {
       eyebrow="The ground rules"
       title="Terms and Conditions"
       summary="The agreement that keeps Amble useful, safe, and fair for everyone who uses it."
-      updated="October 9, 2026"
+      updated="November 14, 2026"
       sections={sections}
     />
   );
